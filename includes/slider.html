@@ -220,6 +220,13 @@
             height: 100%;
             
         }
+        .black-front{
+            filter: brightness(0.5);
+        }
+        .slogan{
+            /* font-size: 3rem; */
+            font-weight: 800;
+        }
         @media screen and (max-width: 800px){
             .h-screen{
                 height: 50vh;
@@ -232,17 +239,20 @@
     <div class="">
 
         <div id="carouselExampleRide" class="carousel slide carousel-fade h-screen " data-bs-ride="true">
-            <div class="carousel-inner h-screen ">
+            <div class="carousel-inner h-screen  ">
               <div class="carousel-item h-full active">
-                <img src="/images/slider4.jpeg" height="100%" class="d-block h-full w-100 h-100" style="width:100% ">
-                <!-- <img src="..." class="" alt="..."> -->
-              </div>
-              <div class="carousel-item h-full">
-                <img src="/images/slider2.jpg" height="100%" class="d-block h-full w-100 h-100" style="width:100% ">
-                <!-- <img src="..." height="100%" class="d-block h-full w-100 h-100" alt="..."> -->
-              </div>
-              <div class="carousel-item h-full">
-                <img src="/images/slider3.jpg" height="100%" class="d-block h-full w-100 h-100" style="width:100% ">
+                  <h1 class="position-absolute z-3 top-50 start-50 translate-middle slogan w-100 text-center fs-1 pl-4">Unlock Global Markets, Master Forex Trading!</h1>
+                  <img src="/images/slider1.jpg" height="100%" class="d-block h-full w-100 h-100 black-front" style="width:100% ">
+                  <!-- <img src="..." class="" alt="..."> -->
+                </div>
+                <div class="carousel-item h-full">
+                    <h1 class="position-absolute z-3 top-50 start-50 translate-middle slogan w-100 text-center fs-1 pl-4">Trade Smart, Profit Big with Forex!</h1>
+                    <img src="/images/slider2.jpg" height="100%" class="d-block h-full w-100 h-100 black-front" style="width:100% ">
+                    <!-- <img src="..." height="100%" class="d-block h-full w-100 h-100 black-front" alt="..."> -->
+                </div>
+                <div class="carousel-item h-full">
+                  <h1 class="position-absolute z-3 top-50 start-50 translate-middle slogan w-100 text-center fs-1 pl-4">Your Gateway to Financial Freedom: Forex Trading!</h1>
+                <img src="/images/slider3.jpg" height="100%" class="d-block h-full w-100 h-100 black-front" style="width:100% ">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
