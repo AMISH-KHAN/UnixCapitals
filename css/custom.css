@@ -70,8 +70,8 @@ body {
 }
 
 .hero {
-    /*  background: #b9d7ff; */
-    background-image: url(../images/bg-56.png);
+     background: #171717;
+    /* background-image: url(../images/bg-56.png); */
     width: 101%;
     height: 130%;
     transform: translate3d(0px, -107.775px, 0px);
